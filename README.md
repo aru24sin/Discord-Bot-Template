@@ -4,4 +4,5 @@ Working discord bot that can connect to the server and run while the program is 
 For this program to be executable do the following commands within the terminal to install the required libraries:
 
 pip install discord (or discord.py)
+
 pip install python-dotenv

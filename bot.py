@@ -1,5 +1,5 @@
 """
-Discord AI Chatbot
+Discord Chatbot Template
 Created on Wed May  3 11:26:16 2023
 @author: Aru
 """

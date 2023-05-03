@@ -5,9 +5,12 @@ Created on Wed May  3 11:26:16 2023
 """
 import os
 import discord
-intents = discord.Intents.default()
+from dotenv import load_dotenv
 
-TOKEN = 'MTEwMzM0MDAyMTc1MjI3MDg2OA.G7ieMr.VDk0vOlezapEM2b6iiBJbuAncwEpHeVvF8Ugl0'
+load_dotenv()
+TOKEN = os.getenv('DISCORD_TOKEN')
+
+intents = discord.Intents.default()
 
 client = discord.Client(intents=intents)
 
